@@ -1,0 +1,20 @@
+PODS:
+  - RNCryptor (5.0.3)
+  - SwiftKeychainWrapper (3.0.1)
+
+DEPENDENCIES:
+  - RNCryptor (= 5.0.3)
+  - SwiftKeychainWrapper (= 3.0.1)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - RNCryptor
+    - SwiftKeychainWrapper
+
+SPEC CHECKSUMS:
+  RNCryptor: c93d19029dcf7ff160aca0f24d6c9e7b0d82f664
+  SwiftKeychainWrapper: 38952a3636320ae61bad3513cadd870929de7a4a
+
+PODFILE CHECKSUM: eb8ec68f1f94161f8338ba71f2b4286c7a3a56cf
+
+COCOAPODS: 1.5.0

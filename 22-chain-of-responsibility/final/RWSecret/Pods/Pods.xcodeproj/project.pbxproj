@@ -1,0 +1,936 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0498957716C54FB7A9DA18D771355634 /* SwiftKeychainWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 64573137DF01A343CACD5673DAF3B795 /* SwiftKeychainWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		159CE708977CBB4FD4432AE71AA067AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		51DF57BE433BDBF77F37AA4CDF4CAB65 /* RNCryptor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 896CCD062CA66475A7F47258DDBF4E3F /* RNCryptor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		629E3B5396EEB7762C907332EE2C384E /* Pods-RWSecret-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FF3E3BC6D0FC983D0F8BA43236423283 /* Pods-RWSecret-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63EFA7B7D19C6DE4B69CC5D3FFBDFA9E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		6D1D478E1116DE0C465E1D426C9B656E /* SwiftKeychainWrapper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E73F4AAFAEFABDF7CB14B7484F2B0AE1 /* SwiftKeychainWrapper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A28E808561DA08BC214C9879EEDBC67 /* KeychainItemAccessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B53D348452DBD72D2074E01E8591153 /* KeychainItemAccessibility.swift */; };
+		85F1E13B3014874A495ACBB7D7BD2F24 /* RNCryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = AE13E8A6D8A801A19DFE4645C5EDC06E /* RNCryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90C66E5CDF1832D6E837BD6769E85572 /* Pods-RWSecret-RWSecretTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EA798DD770364955922FC2698255246C /* Pods-RWSecret-RWSecretTests-dummy.m */; };
+		993C92A7F03D2F19EB67B0A0F930BD1A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		9BC7621783BB55783DAAEFC6B9083127 /* SwiftKeychainWrapper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F5F32F8B615E47CD65B558CE28FB779 /* SwiftKeychainWrapper-dummy.m */; };
+		9CCBD7CE11C12821C29D453C959B5C32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		9F35E99A3C4D31DF4F738077AC3655FC /* RNCryptor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1398E9A97DE627AA5C1393DF2E49ABA1 /* RNCryptor-dummy.m */; };
+		A262132EE8DC31922F85956916AA912C /* RNCryptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90EAA12C8DCD766F7C89CAD8500D46F /* RNCryptor.swift */; };
+		D492D4586EC0CDDCDFA36E4BB593C406 /* Pods-RWSecret-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE00C509E5D61ED2456CBFE52328949 /* Pods-RWSecret-dummy.m */; };
+		EF34BA2C986C85A1CF1E24BAB03BE487 /* KeychainWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341CEF23542393B4401D32D30B419598 /* KeychainWrapper.swift */; };
+		FFB47E344082334EF99AA298563A4A8B /* Pods-RWSecret-RWSecretTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4453B6B213B825B3487F2E6C998986B3 /* Pods-RWSecret-RWSecretTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2F98B0B74BEDE050D258082F153453BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2417930DAEE00E8DB7BD1FD9F8644A1A;
+			remoteInfo = RNCryptor;
+		};
+		4177D418672CCD9831D612B6EF9DE0D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80B6B9297A4723D858C400F66F6B5E30;
+			remoteInfo = SwiftKeychainWrapper;
+		};
+		85B7424AC737D0592D6F76217AB5BBCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80B6B9297A4723D858C400F66F6B5E30;
+			remoteInfo = SwiftKeychainWrapper;
+		};
+		FED887D9217596F22B6D9D10D9A3C85B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2417930DAEE00E8DB7BD1FD9F8644A1A;
+			remoteInfo = RNCryptor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		080BFCFF0EDA46A1FEA5F2CF3A248C2D /* Pods-RWSecret-RWSecretTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RWSecret-RWSecretTests.modulemap"; sourceTree = "<group>"; };
+		1055962368BA7AF7BDF5ED33F8EA94D8 /* Pods_RWSecret.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RWSecret.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1398E9A97DE627AA5C1393DF2E49ABA1 /* RNCryptor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RNCryptor-dummy.m"; sourceTree = "<group>"; };
+		1A0501F9B742D91B3A8FEA23A9275244 /* Pods-RWSecret-RWSecretTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RWSecret-RWSecretTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1E1E046AAF2DC13B5B0CBB0744CE2C3D /* RNCryptor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RNCryptor.modulemap; sourceTree = "<group>"; };
+		2AA5800694A985324DA518B2D8338230 /* Pods-RWSecret.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RWSecret.debug.xcconfig"; sourceTree = "<group>"; };
+		33CB7A9E729E227227632223EAC9CEB2 /* RNCryptor.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RNCryptor.xcconfig; sourceTree = "<group>"; };
+		341CEF23542393B4401D32D30B419598 /* KeychainWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeychainWrapper.swift; path = SwiftKeychainWrapper/KeychainWrapper.swift; sourceTree = "<group>"; };
+		3B53D348452DBD72D2074E01E8591153 /* KeychainItemAccessibility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeychainItemAccessibility.swift; path = SwiftKeychainWrapper/KeychainItemAccessibility.swift; sourceTree = "<group>"; };
+		3EF7581DC0B760B3AD52083553824A0E /* Pods-RWSecret-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RWSecret-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3F1F5934684F749FA5EBF83A65B1E146 /* Pods-RWSecret-RWSecretTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RWSecret-RWSecretTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3F85B4C74A35CF6D4AEC578B9511BDD3 /* SwiftKeychainWrapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftKeychainWrapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		42BAD9AFB10C93DAA3CD832170D09803 /* SwiftKeychainWrapper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftKeychainWrapper-prefix.pch"; sourceTree = "<group>"; };
+		4453B6B213B825B3487F2E6C998986B3 /* Pods-RWSecret-RWSecretTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RWSecret-RWSecretTests-umbrella.h"; sourceTree = "<group>"; };
+		5F5F32F8B615E47CD65B558CE28FB779 /* SwiftKeychainWrapper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftKeychainWrapper-dummy.m"; sourceTree = "<group>"; };
+		60A81FCBF393921BCECFDFD435A31899 /* Pods-RWSecret-RWSecretTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RWSecret-RWSecretTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		610A9251CA025C6F678C8306361BDD54 /* Pods-RWSecret-RWSecretTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RWSecret-RWSecretTests-resources.sh"; sourceTree = "<group>"; };
+		64573137DF01A343CACD5673DAF3B795 /* SwiftKeychainWrapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwiftKeychainWrapper.h; path = SwiftKeychainWrapper/SwiftKeychainWrapper.h; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		711B10822F1286BDD988C417FE5B28A0 /* Pods-RWSecret-RWSecretTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RWSecret-RWSecretTests.release.xcconfig"; sourceTree = "<group>"; };
+		7445991555C6823F50C223BB4F902BD5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74A7B829BBC18D595CCE9E7F0B9EF4F5 /* Pods-RWSecret-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RWSecret-acknowledgements.plist"; sourceTree = "<group>"; };
+		7AD44964D63C345753D1F9A12F031A5B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		844CD5905A1E6D671FDE5C92A17F2AB9 /* SwiftKeychainWrapper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftKeychainWrapper.xcconfig; sourceTree = "<group>"; };
+		896CCD062CA66475A7F47258DDBF4E3F /* RNCryptor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RNCryptor-umbrella.h"; sourceTree = "<group>"; };
+		8B801F1F15B1B536FFD2DDC73B5E5BBA /* Pods-RWSecret-RWSecretTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RWSecret-RWSecretTests-frameworks.sh"; sourceTree = "<group>"; };
+		8BC841143806C55B7841384C1D51D0A7 /* Pods-RWSecret.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RWSecret.release.xcconfig"; sourceTree = "<group>"; };
+		91BBBAF246067FF1DB8892B6DD81A44C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AE13E8A6D8A801A19DFE4645C5EDC06E /* RNCryptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RNCryptor.h; path = Sources/Cryptor/include/RNCryptor.h; sourceTree = "<group>"; };
+		BAED8158EC9560EBD6AE655A69CB4DB0 /* RNCryptor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RNCryptor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2CEE9968AB5DCB8825635C092EE7B36 /* Pods-RWSecret-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RWSecret-resources.sh"; sourceTree = "<group>"; };
+		C8F046F2DA0D91AD9F988862FF2BE1D9 /* Pods-RWSecret.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RWSecret.modulemap"; sourceTree = "<group>"; };
+		D1E22522DC09CB63A238D28523B36EF7 /* Pods-RWSecret-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RWSecret-frameworks.sh"; sourceTree = "<group>"; };
+		D90EAA12C8DCD766F7C89CAD8500D46F /* RNCryptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RNCryptor.swift; path = Sources/RNCryptor/RNCryptor.swift; sourceTree = "<group>"; };
+		E73F4AAFAEFABDF7CB14B7484F2B0AE1 /* SwiftKeychainWrapper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftKeychainWrapper-umbrella.h"; sourceTree = "<group>"; };
+		E8231C224BAC9E9D2ACD0F8EAC9C007E /* SwiftKeychainWrapper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftKeychainWrapper.modulemap; sourceTree = "<group>"; };
+		EA798DD770364955922FC2698255246C /* Pods-RWSecret-RWSecretTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RWSecret-RWSecretTests-dummy.m"; sourceTree = "<group>"; };
+		EAF9B2D4997BF0EB4D05AF897202EE34 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC9CD121558EFD71C5CB0A709CE3A50B /* RNCryptor-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RNCryptor-prefix.pch"; sourceTree = "<group>"; };
+		EFE00C509E5D61ED2456CBFE52328949 /* Pods-RWSecret-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RWSecret-dummy.m"; sourceTree = "<group>"; };
+		FB0438A0FCC1C201568A4AEF8BFBC53B /* Pods_RWSecret_RWSecretTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RWSecret_RWSecretTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF3E3BC6D0FC983D0F8BA43236423283 /* Pods-RWSecret-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RWSecret-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0ECD32E29AAA838B4452E0FC23031472 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				993C92A7F03D2F19EB67B0A0F930BD1A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7660BBBA9C507F4BBD2A6BFBF041DCB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				159CE708977CBB4FD4432AE71AA067AE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC3F6F820969812028AD6C1B662F998C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63EFA7B7D19C6DE4B69CC5D3FFBDFA9E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C04B32121153B714369DE90CEC61E6AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CCBD7CE11C12821C29D453C959B5C32 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0918946955AD289B96AC680E19B44A0C /* Pods-RWSecret */ = {
+			isa = PBXGroup;
+			children = (
+				91BBBAF246067FF1DB8892B6DD81A44C /* Info.plist */,
+				C8F046F2DA0D91AD9F988862FF2BE1D9 /* Pods-RWSecret.modulemap */,
+				3EF7581DC0B760B3AD52083553824A0E /* Pods-RWSecret-acknowledgements.markdown */,
+				74A7B829BBC18D595CCE9E7F0B9EF4F5 /* Pods-RWSecret-acknowledgements.plist */,
+				EFE00C509E5D61ED2456CBFE52328949 /* Pods-RWSecret-dummy.m */,
+				D1E22522DC09CB63A238D28523B36EF7 /* Pods-RWSecret-frameworks.sh */,
+				C2CEE9968AB5DCB8825635C092EE7B36 /* Pods-RWSecret-resources.sh */,
+				FF3E3BC6D0FC983D0F8BA43236423283 /* Pods-RWSecret-umbrella.h */,
+				2AA5800694A985324DA518B2D8338230 /* Pods-RWSecret.debug.xcconfig */,
+				8BC841143806C55B7841384C1D51D0A7 /* Pods-RWSecret.release.xcconfig */,
+			);
+			name = "Pods-RWSecret";
+			path = "Target Support Files/Pods-RWSecret";
+			sourceTree = "<group>";
+		};
+		123EF81230D4D49FBE4D4BE7DE461CCE /* Pods-RWSecret-RWSecretTests */ = {
+			isa = PBXGroup;
+			children = (
+				EAF9B2D4997BF0EB4D05AF897202EE34 /* Info.plist */,
+				080BFCFF0EDA46A1FEA5F2CF3A248C2D /* Pods-RWSecret-RWSecretTests.modulemap */,
+				60A81FCBF393921BCECFDFD435A31899 /* Pods-RWSecret-RWSecretTests-acknowledgements.markdown */,
+				1A0501F9B742D91B3A8FEA23A9275244 /* Pods-RWSecret-RWSecretTests-acknowledgements.plist */,
+				EA798DD770364955922FC2698255246C /* Pods-RWSecret-RWSecretTests-dummy.m */,
+				8B801F1F15B1B536FFD2DDC73B5E5BBA /* Pods-RWSecret-RWSecretTests-frameworks.sh */,
+				610A9251CA025C6F678C8306361BDD54 /* Pods-RWSecret-RWSecretTests-resources.sh */,
+				4453B6B213B825B3487F2E6C998986B3 /* Pods-RWSecret-RWSecretTests-umbrella.h */,
+				3F1F5934684F749FA5EBF83A65B1E146 /* Pods-RWSecret-RWSecretTests.debug.xcconfig */,
+				711B10822F1286BDD988C417FE5B28A0 /* Pods-RWSecret-RWSecretTests.release.xcconfig */,
+			);
+			name = "Pods-RWSecret-RWSecretTests";
+			path = "Target Support Files/Pods-RWSecret-RWSecretTests";
+			sourceTree = "<group>";
+		};
+		1EC2D55C6D891C5AC98B4CB9E0D356C6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5E9966E0894E175C9753D034BDA86DBC /* RNCryptor */,
+				43410E2F1979A4C40B7AEE2BDF112FF2 /* SwiftKeychainWrapper */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		43410E2F1979A4C40B7AEE2BDF112FF2 /* SwiftKeychainWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				3B53D348452DBD72D2074E01E8591153 /* KeychainItemAccessibility.swift */,
+				341CEF23542393B4401D32D30B419598 /* KeychainWrapper.swift */,
+				64573137DF01A343CACD5673DAF3B795 /* SwiftKeychainWrapper.h */,
+				DF315339ACAE7D2705C0835C6BB6AADF /* Support Files */,
+			);
+			path = SwiftKeychainWrapper;
+			sourceTree = "<group>";
+		};
+		5E9966E0894E175C9753D034BDA86DBC /* RNCryptor */ = {
+			isa = PBXGroup;
+			children = (
+				AE13E8A6D8A801A19DFE4645C5EDC06E /* RNCryptor.h */,
+				D90EAA12C8DCD766F7C89CAD8500D46F /* RNCryptor.swift */,
+				9C21C489848C1B40DE0421A43BF69BC4 /* Support Files */,
+			);
+			path = RNCryptor;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				1EC2D55C6D891C5AC98B4CB9E0D356C6 /* Pods */,
+				F647111AB3C5B8A782BAA70834B9A247 /* Products */,
+				BBE7F414392699276815BD168341C0D3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9C21C489848C1B40DE0421A43BF69BC4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7445991555C6823F50C223BB4F902BD5 /* Info.plist */,
+				1E1E046AAF2DC13B5B0CBB0744CE2C3D /* RNCryptor.modulemap */,
+				33CB7A9E729E227227632223EAC9CEB2 /* RNCryptor.xcconfig */,
+				1398E9A97DE627AA5C1393DF2E49ABA1 /* RNCryptor-dummy.m */,
+				EC9CD121558EFD71C5CB0A709CE3A50B /* RNCryptor-prefix.pch */,
+				896CCD062CA66475A7F47258DDBF4E3F /* RNCryptor-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RNCryptor";
+			sourceTree = "<group>";
+		};
+		BBE7F414392699276815BD168341C0D3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0918946955AD289B96AC680E19B44A0C /* Pods-RWSecret */,
+				123EF81230D4D49FBE4D4BE7DE461CCE /* Pods-RWSecret-RWSecretTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DF315339ACAE7D2705C0835C6BB6AADF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7AD44964D63C345753D1F9A12F031A5B /* Info.plist */,
+				E8231C224BAC9E9D2ACD0F8EAC9C007E /* SwiftKeychainWrapper.modulemap */,
+				844CD5905A1E6D671FDE5C92A17F2AB9 /* SwiftKeychainWrapper.xcconfig */,
+				5F5F32F8B615E47CD65B558CE28FB779 /* SwiftKeychainWrapper-dummy.m */,
+				42BAD9AFB10C93DAA3CD832170D09803 /* SwiftKeychainWrapper-prefix.pch */,
+				E73F4AAFAEFABDF7CB14B7484F2B0AE1 /* SwiftKeychainWrapper-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftKeychainWrapper";
+			sourceTree = "<group>";
+		};
+		F647111AB3C5B8A782BAA70834B9A247 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1055962368BA7AF7BDF5ED33F8EA94D8 /* Pods_RWSecret.framework */,
+				FB0438A0FCC1C201568A4AEF8BFBC53B /* Pods_RWSecret_RWSecretTests.framework */,
+				BAED8158EC9560EBD6AE655A69CB4DB0 /* RNCryptor.framework */,
+				3F85B4C74A35CF6D4AEC578B9511BDD3 /* SwiftKeychainWrapper.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2A2677B3BFA8BA200E34A48AA48ECCC7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D1D478E1116DE0C465E1D426C9B656E /* SwiftKeychainWrapper-umbrella.h in Headers */,
+				0498957716C54FB7A9DA18D771355634 /* SwiftKeychainWrapper.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		391C6C8B0ABBC44A868E919EF47B5C02 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFB47E344082334EF99AA298563A4A8B /* Pods-RWSecret-RWSecretTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C9843FFB7B815979E37D3A035E995E7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51DF57BE433BDBF77F37AA4CDF4CAB65 /* RNCryptor-umbrella.h in Headers */,
+				85F1E13B3014874A495ACBB7D7BD2F24 /* RNCryptor.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E86755066E0876B0D374C72F1F5F3F43 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				629E3B5396EEB7762C907332EE2C384E /* Pods-RWSecret-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		08C3F5931BF18064AC5A7A1CBEE7572A /* Pods-RWSecret-RWSecretTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 278014C22C4E03FA37AA10A4B1900BD2 /* Build configuration list for PBXNativeTarget "Pods-RWSecret-RWSecretTests" */;
+			buildPhases = (
+				BCEBF2A560BA891A575644E438E1DEA4 /* Sources */,
+				C04B32121153B714369DE90CEC61E6AB /* Frameworks */,
+				391C6C8B0ABBC44A868E919EF47B5C02 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E2F3A7DB1AB69568899963F7FC12EFC /* PBXTargetDependency */,
+				E8216FE0CEEFAD9C99F21C1E05C2DC9B /* PBXTargetDependency */,
+			);
+			name = "Pods-RWSecret-RWSecretTests";
+			productName = "Pods-RWSecret-RWSecretTests";
+			productReference = FB0438A0FCC1C201568A4AEF8BFBC53B /* Pods_RWSecret_RWSecretTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2417930DAEE00E8DB7BD1FD9F8644A1A /* RNCryptor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95667B35FADFCF700178150602B147AF /* Build configuration list for PBXNativeTarget "RNCryptor" */;
+			buildPhases = (
+				82612A997A91FBE7D0DDFECD075F08F8 /* Sources */,
+				7660BBBA9C507F4BBD2A6BFBF041DCB5 /* Frameworks */,
+				3C9843FFB7B815979E37D3A035E995E7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RNCryptor;
+			productName = RNCryptor;
+			productReference = BAED8158EC9560EBD6AE655A69CB4DB0 /* RNCryptor.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		80B6B9297A4723D858C400F66F6B5E30 /* SwiftKeychainWrapper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4744C789DC167D5E88EF0B599C7C9F8 /* Build configuration list for PBXNativeTarget "SwiftKeychainWrapper" */;
+			buildPhases = (
+				0296485FF8E25A4346948D489F39B668 /* Sources */,
+				AC3F6F820969812028AD6C1B662F998C /* Frameworks */,
+				2A2677B3BFA8BA200E34A48AA48ECCC7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftKeychainWrapper;
+			productName = SwiftKeychainWrapper;
+			productReference = 3F85B4C74A35CF6D4AEC578B9511BDD3 /* SwiftKeychainWrapper.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		95A2DE32D95AB0B930938F6272CAF724 /* Pods-RWSecret */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DBD03FB16677482291F1135D9F0D7FC /* Build configuration list for PBXNativeTarget "Pods-RWSecret" */;
+			buildPhases = (
+				3112BA219AFF7683F5936E157753C85F /* Sources */,
+				0ECD32E29AAA838B4452E0FC23031472 /* Frameworks */,
+				E86755066E0876B0D374C72F1F5F3F43 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6013A990A56EFFBE3012D163A5E7CA61 /* PBXTargetDependency */,
+				5A397497466675FC0C3E9C13F2844BCB /* PBXTargetDependency */,
+			);
+			name = "Pods-RWSecret";
+			productName = "Pods-RWSecret";
+			productReference = 1055962368BA7AF7BDF5ED33F8EA94D8 /* Pods_RWSecret.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 1000;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = F647111AB3C5B8A782BAA70834B9A247 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95A2DE32D95AB0B930938F6272CAF724 /* Pods-RWSecret */,
+				08C3F5931BF18064AC5A7A1CBEE7572A /* Pods-RWSecret-RWSecretTests */,
+				2417930DAEE00E8DB7BD1FD9F8644A1A /* RNCryptor */,
+				80B6B9297A4723D858C400F66F6B5E30 /* SwiftKeychainWrapper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0296485FF8E25A4346948D489F39B668 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A28E808561DA08BC214C9879EEDBC67 /* KeychainItemAccessibility.swift in Sources */,
+				EF34BA2C986C85A1CF1E24BAB03BE487 /* KeychainWrapper.swift in Sources */,
+				9BC7621783BB55783DAAEFC6B9083127 /* SwiftKeychainWrapper-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3112BA219AFF7683F5936E157753C85F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D492D4586EC0CDDCDFA36E4BB593C406 /* Pods-RWSecret-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82612A997A91FBE7D0DDFECD075F08F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F35E99A3C4D31DF4F738077AC3655FC /* RNCryptor-dummy.m in Sources */,
+				A262132EE8DC31922F85956916AA912C /* RNCryptor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCEBF2A560BA891A575644E438E1DEA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90C66E5CDF1832D6E837BD6769E85572 /* Pods-RWSecret-RWSecretTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A397497466675FC0C3E9C13F2844BCB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftKeychainWrapper;
+			target = 80B6B9297A4723D858C400F66F6B5E30 /* SwiftKeychainWrapper */;
+			targetProxy = 4177D418672CCD9831D612B6EF9DE0D7 /* PBXContainerItemProxy */;
+		};
+		6013A990A56EFFBE3012D163A5E7CA61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RNCryptor;
+			target = 2417930DAEE00E8DB7BD1FD9F8644A1A /* RNCryptor */;
+			targetProxy = FED887D9217596F22B6D9D10D9A3C85B /* PBXContainerItemProxy */;
+		};
+		6E2F3A7DB1AB69568899963F7FC12EFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RNCryptor;
+			target = 2417930DAEE00E8DB7BD1FD9F8644A1A /* RNCryptor */;
+			targetProxy = 2F98B0B74BEDE050D258082F153453BB /* PBXContainerItemProxy */;
+		};
+		E8216FE0CEEFAD9C99F21C1E05C2DC9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftKeychainWrapper;
+			target = 80B6B9297A4723D858C400F66F6B5E30 /* SwiftKeychainWrapper */;
+			targetProxy = 85B7424AC737D0592D6F76217AB5BBCA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		08638A96A528B1EC32DE62F8A728389D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		3F3236F48DAF9B44B3A3F36228D2A4CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 711B10822F1286BDD988C417FE5B28A0 /* Pods-RWSecret-RWSecretTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RWSecret-RWSecretTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RWSecret-RWSecretTests/Pods-RWSecret-RWSecretTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		50992BDFCB28EF26A34EF6F7E39D434A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AA5800694A985324DA518B2D8338230 /* Pods-RWSecret.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RWSecret/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RWSecret/Pods-RWSecret.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		71A1C8519D83AE2A0DD64A234A149871 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F1F5934684F749FA5EBF83A65B1E146 /* Pods-RWSecret-RWSecretTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RWSecret-RWSecretTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RWSecret-RWSecretTests/Pods-RWSecret-RWSecretTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7690C389A895196711E6C8CBEF2B741C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33CB7A9E729E227227632223EAC9CEB2 /* RNCryptor.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RNCryptor/RNCryptor-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RNCryptor/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RNCryptor/RNCryptor.modulemap";
+				PRODUCT_MODULE_NAME = RNCryptor;
+				PRODUCT_NAME = RNCryptor;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		80E90F430446BE5681E7CE14BE1A820E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BC841143806C55B7841384C1D51D0A7 /* Pods-RWSecret.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RWSecret/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RWSecret/Pods-RWSecret.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9DAE5233986C01ADB6E67169C53A3FD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D5DC63A4940B450F6E389AB4E76C2E0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33CB7A9E729E227227632223EAC9CEB2 /* RNCryptor.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RNCryptor/RNCryptor-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RNCryptor/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RNCryptor/RNCryptor.modulemap";
+				PRODUCT_MODULE_NAME = RNCryptor;
+				PRODUCT_NAME = RNCryptor;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DE3917446753066746B7C47F40AE8D8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 844CD5905A1E6D671FDE5C92A17F2AB9 /* SwiftKeychainWrapper.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftKeychainWrapper/SwiftKeychainWrapper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftKeychainWrapper/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftKeychainWrapper/SwiftKeychainWrapper.modulemap";
+				PRODUCT_MODULE_NAME = SwiftKeychainWrapper;
+				PRODUCT_NAME = SwiftKeychainWrapper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F1753DEEB4A8030A2C0CCA204804F1AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 844CD5905A1E6D671FDE5C92A17F2AB9 /* SwiftKeychainWrapper.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftKeychainWrapper/SwiftKeychainWrapper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftKeychainWrapper/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftKeychainWrapper/SwiftKeychainWrapper.modulemap";
+				PRODUCT_MODULE_NAME = SwiftKeychainWrapper;
+				PRODUCT_NAME = SwiftKeychainWrapper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		278014C22C4E03FA37AA10A4B1900BD2 /* Build configuration list for PBXNativeTarget "Pods-RWSecret-RWSecretTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71A1C8519D83AE2A0DD64A234A149871 /* Debug */,
+				3F3236F48DAF9B44B3A3F36228D2A4CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DAE5233986C01ADB6E67169C53A3FD2 /* Debug */,
+				08638A96A528B1EC32DE62F8A728389D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DBD03FB16677482291F1135D9F0D7FC /* Build configuration list for PBXNativeTarget "Pods-RWSecret" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50992BDFCB28EF26A34EF6F7E39D434A /* Debug */,
+				80E90F430446BE5681E7CE14BE1A820E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95667B35FADFCF700178150602B147AF /* Build configuration list for PBXNativeTarget "RNCryptor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5DC63A4940B450F6E389AB4E76C2E0B /* Debug */,
+				7690C389A895196711E6C8CBEF2B741C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4744C789DC167D5E88EF0B599C7C9F8 /* Build configuration list for PBXNativeTarget "SwiftKeychainWrapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1753DEEB4A8030A2C0CCA204804F1AE /* Debug */,
+				DE3917446753066746B7C47F40AE8D8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
